@@ -1,0 +1,22 @@
+site_name: Zerto In-Cloud (ZIC) for Amazon Web Services (AWS) v1.1
+theme:
+  name: readthedocs
+  highlightjs: false
+nav:
+- Introduction: introduction.md
+- Prerequisites & Requirements: Prerequisites & Requirements.md
+- ZIC Installation: ZIC installation components.md
+- Obtaining the Image Pull Key Secret: Obtaining the Image Pull Key Secret.md
+- Deploying the ZIC Instance: Deploying the ZIC Instance.md
+- Configuring ZIC To Use Access Token from Keycloak: Use access token from keycloak.md
+plugins:
+- zerto_swagger
+- search
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

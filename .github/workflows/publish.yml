@@ -5,7 +5,7 @@ name: Upload to the upload server
 # Controls when the workflow will run
 on:
   push:
-    branches: [develop, main]
+    branches: develop
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

@@ -6,4 +6,4 @@ ZIC is installed in one account, at either the source or target region.
 
 In the following graphic, ZIC is installed in the target region in a single account:
 
-![graphic](Images/ZIC_deployment_1.png?raw=true)
+![Deployment](Images/ZIC_deployment_1.png?raw=true)

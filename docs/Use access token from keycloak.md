@@ -87,9 +87,7 @@ Use these steps to configure Zerto In-Cloud an IAM Policy and assign roles for Z
 ![Create_role](Images/ZIC_create_Role.png?raw=true)
 
 4. Select the policy you created. Click **Next**.
-
 ![Create_Policy](Images/ZIC_create_Policy.png?raw=true)
 
 5.  Name the Role **ZicScaleAccountRole**.
-
 ![ZicScaleAccountRole](Images/ZIC_ZicScaleAccountRole.png?raw=true)

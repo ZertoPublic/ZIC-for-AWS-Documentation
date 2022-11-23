@@ -1,5 +1,3 @@
-The installation installs the following components:
-
 - **Zerto In-Cloud Manager** </br>
   A containerized application that manages everything required for the orchestration and replication between the protected and recovery availability zones, regions, and accounts in AWS. ZIC leverages native AWS platform snapshots and manages the SLA using the Zerto journal and familiar Zerto protection components and methods.
  

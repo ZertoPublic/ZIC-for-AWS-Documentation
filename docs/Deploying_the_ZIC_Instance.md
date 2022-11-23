@@ -1,6 +1,6 @@
 # Deploying the ZIC Instance
 
-First you must Obtaining the Image Pull Key Secret. After you receive the email notification that your AWS Account ID was added to the privately published AMI, continue with the following configuration, deployment and installation steps.
+First you must obtain the image pull key secret. After you receive the email notification that your AWS Account ID was added to the privately published AMI, continue with the following configuration, deployment and installation steps.
 
 #### AWS Configuration
 

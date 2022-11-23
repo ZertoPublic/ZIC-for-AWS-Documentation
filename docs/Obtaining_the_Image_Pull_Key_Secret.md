@@ -1,3 +1,5 @@
+#### Obtaining the Image Pull Image
+
 The image pull key secret is used in the deployment to enable downloading Zertoâ€™s component images. Follow these steps to obtain the image pull key secret.
 
 1.	Log in to myZerto.
@@ -9,5 +11,3 @@ The image pull key secret is used in the deployment to enable downloading Zertoâ
 7.	Copy the Username and Password keys to a local file so you have access to them when you need this information later when installing Zerto software.
 
 The account team will send an email notification that your AWS Account ID was added to the privately published AMI.
-
-Continue to Deploying the ZIC Instance.

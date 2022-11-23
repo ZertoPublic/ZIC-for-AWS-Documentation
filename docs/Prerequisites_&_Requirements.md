@@ -4,7 +4,7 @@ ZIC for AWS is a single appliance that is installed in an AWS Account, preferabl
 
 Ensure that you meet all of the prerequisites and requirements before starting the installation.
 
-### Zerto User Interface Supported Browsers
+#### Zerto User Interface Supported Browsers
 
 The ZIC user interface requires one of these Zerto Virtual Manager Supported Browsers.
 
@@ -14,7 +14,7 @@ The ZIC user interface requires one of these Zerto Virtual Manager Supported Bro
 
 The lowest supported screen resolution is 1366x768.
 
-### ZIC Ports and Related Services
+#### ZIC Ports and Related Services
 
 ZIC primarily uses ports 443 and 22. 
 
@@ -38,7 +38,7 @@ The table below provides a detailed breakdown of all of the ports used and the s
 |http, 49154 | ZIC |Redirected to /main/vpgs|
 |22 | End User CLI |SSH and a .pem key to access the ZIC shell||
 
-### ZIC Container Outgoing Endpoints
+#### ZIC Container Outgoing Endpoints
 
 ZIC executes calls to AWS EC2 (Amazon Elastic Compute Cloud), DynamoDB, and STS services, using their regional endpoint host name, and their global host name for the STS service. Access to these endpoints is required in the region ZIC is deployed in and in all recovery regions in order for ZIC to function properly.
 
@@ -48,7 +48,7 @@ ZIC executes calls to AWS EC2 (Amazon Elastic Compute Cloud), DynamoDB, and STS 
 - Regional DynamoDB service endpoint in the ca-central-1 region: dynamodb.ca-central-1.amazonaws.com
 - Global STS service endpoint: sts.amazonaws.com
 
-### Appliance Connectivity Requirements
+#### Appliance Connectivity Requirements
 
 The following ZIC for AWS Appliance connectivity requirements must be met.
 
@@ -58,7 +58,7 @@ The following ZIC for AWS Appliance connectivity requirements must be met.
   See [ZIC Ports and Related Services](#ZIC-Ports-and-Related-Services) for details.
 -	The ZIC Appliance should be a m5a.2xlarge machine size.
 
-### Minimum Required IAM Role AWS Permissions
+#### Minimum Required IAM Role AWS Permissions
 
 ZIC requires IAM roles to be defined and assigned to the ZIC host. IAM roles must be assigned permissions. For the AWS account used by ZIC, Zerto requires only a subset of AWS permissions. This gives the Zerto customer more security and control over their AWS environment.
 

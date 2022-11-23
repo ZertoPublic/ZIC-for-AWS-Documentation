@@ -84,10 +84,13 @@ Use these steps to configure Zerto In-Cloud an IAM Policy and assign roles for Z
 1.  Go to **Roles**.
 2.  Create role - **Another AWS account**.
 3.  In **Account ID** insert the Deployment account. Click **Next**.
+
 ![Create_role](Images/ZIC_create_Role.png?raw=true)
 
 4. Select the policy you created. Click **Next**.
+
 ![Create_Policy](Images/ZIC_create_Policy.png?raw=true)
 
 5.  Name the Role **ZicScaleAccountRole**.
+
 ![ZicScaleAccountRole](Images/ZIC_ZicScaleAccountRole.png?raw=true)

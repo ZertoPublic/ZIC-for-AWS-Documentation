@@ -1,5 +1,3 @@
-## ZIC Installation
-
 The installation installs the following components:
 
 - **Zerto In-Cloud Manager** </br>

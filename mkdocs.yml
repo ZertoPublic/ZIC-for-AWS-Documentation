@@ -5,7 +5,6 @@ theme:
 nav:
 - Prerequisites & Requirements: Prerequisites_&_Requirements.md
 - ZIC Installation: ZIC_installation_components.md
-- Obtaining the Image Pull Key Secret: Obtaining_the_Image_Pull_Key_Secret.md
 - Deploying the ZIC Instance: Deploying_the_ZIC_Instance.md
 - Configuring ZIC To Use Access Token from Keycloak: Use_access_token_from_keycloak.md
 plugins:

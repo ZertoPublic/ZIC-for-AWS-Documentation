@@ -1,8 +1,6 @@
-## Configuring ZIC To Use Access Token from Keycloak
-
 Zerto In-Cloud overcomes the AWS 20 concurrent snapshot copy limits between source and target regions by allowing you to use multiple AWS Accounts as Scale Accounts. Scale Accounts effectively multiply the number of concurrent snapshots that can be replicated for much lower RPOs.
 
-Use these steps to configure Zerto In-Cloud an IAM Policy and assign roles for ZIC Scale Accounts.
+Use these steps to configure a Zerto In-Cloud IAM Policy and assign roles for ZIC Scale Accounts.
 
 1.  Log into the scale account.
 2.  Navigate to **IAM - Policies**.

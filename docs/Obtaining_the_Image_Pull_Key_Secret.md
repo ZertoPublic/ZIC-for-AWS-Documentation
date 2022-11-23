@@ -1,5 +1,3 @@
-## Obtaining the Image Pull Key Secret
-
 The image pull key secret is used in the deployment to enable downloading Zerto’s component images. Follow these steps to obtain the image pull key secret.
 
 1.	Log in to myZerto.

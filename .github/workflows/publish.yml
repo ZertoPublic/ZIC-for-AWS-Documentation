@@ -50,16 +50,7 @@ jobs:
         run: zip -r ${{ github.event.repository.name }}_${{ steps.tag_name.outputs.tag }}.zip . -x '*.git*' '*.idea*'
       - name: echo-step
         run: echo "${{ github.event.release.target_commitish }}"
-      - name: uploading archive to prod
-        if: ${{ steps.branch_name.outputs.branch == 'main' || github.event.release.target_commitish == 'main'}}
-        uses: wlixcc/SFTP-Deploy-Action@v1.0
-        with:
-          username: ${{ secrets.USERNAME }}
-          server: ${{ secrets.SERVER }}
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          local_path: ${{ github.event.repository.name }}_${{ steps.tag_name.outputs.tag }}.zip
-          remote_path: '${{ secrets.PROD_UPLOAD_URL }}'
-          args: '-o ConnectTimeout=5'
+      
       - name: uploading archive to staging
         if: ${{ steps.branch_name.outputs.branch == 'develop' || github.event.release.target_commitish == 'develop' }}
         uses: wlixcc/SFTP-Deploy-Action@v1.0

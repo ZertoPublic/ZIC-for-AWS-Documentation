@@ -4,7 +4,7 @@ theme:
   highlightjs: false
 nav:
 - Prerequisites & Requirements: Prerequisites_&_Requirements.md
-- ZIC Installation: ZIC_installation_components.md
+- ZIC Installation Components: ZIC_installation_components.md
 - Deploying the ZIC Instance: Deploying_the_ZIC_Instance.md
 - Configuring ZIC To Use Access Token from Keycloak: Use_access_token_from_keycloak.md
 plugins:

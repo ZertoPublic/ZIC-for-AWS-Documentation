@@ -7,6 +7,7 @@ nav:
 - ZIC Installation Components: ZIC_installation_components.md
 - Deploying the ZIC Instance: Deploying_the_ZIC_Instance.md
 - Configuring Scale Accounts: Configuring_Scale_Accounts.md
+- Connecting to ZIC: Connecting_to_ZIC.md
 plugins:
 - zerto_swagger
 - search
